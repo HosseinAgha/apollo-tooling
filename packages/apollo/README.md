@@ -182,6 +182,11 @@ OPTIONS
   --tsFileExtension=tsFileExtension          By default, TypeScript will output "ts" files. Set "tsFileExtension" to
                                              specify a different file extension, for example "d.ts"
 
+  --tsUseOptionalForNullables                This makes nullable fields optional instead of union of field type and null. 
+                                             Makes sending query/mutation results to components with optional props easier. 
+                                             When enabling this You should be aware that `undefined !== null` in JavaScript and apollo-client assigns null to fields with empty value. 
+                                             So a type guard like `type fieldValue !== 'object'` without any further checks, compiles but may result in runtime errors.
+
   --useFlowExactObjects                      Use Flow exact objects for generated types [flow only]
 
   --useFlowReadOnlyTypes                     Use read only types for generated types [flow only]. **Deprecated in favor
