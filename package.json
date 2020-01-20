@@ -1,5 +1,6 @@
 {
   "name": "apollo-tooling-monorepo",
+  "version": "0.0.1",
   "private": true,
   "homepage": "https://github.com/apollographql/apollo-tooling",
   "bugs": "https://github.com/apollographql/apollo-tooling/issues",
