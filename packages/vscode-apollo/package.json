@@ -1,5 +1,5 @@
 {
-  "name": "vscode-apollo",
+  "name": "@iin-apollo/vscode-apollo",
   "displayName": "Apollo GraphQL",
   "description": "Rich editor support for GraphQL client and server development that seamlessly integrates with the Apollo platform",
   "version": "1.13.0",

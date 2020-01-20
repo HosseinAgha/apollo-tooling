@@ -1,5 +1,5 @@
 {
-  "name": "apollo-graphql",
+  "name": "@iin-apollo/apollo-graphql",
   "version": "0.3.7",
   "description": "Apollo GraphQL utility library",
   "main": "lib/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "apollo",
+  "name": "@iin-apollo/apollo",
   "description": "Command line tool for Apollo GraphQL",
   "version": "2.21.3",
   "referenceID": "21ad0845-c235-422e-be7d-a998310df972",
@@ -31,7 +31,7 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "@apollographql/apollo-tools": "file:../apollo-tools",
+    "@iin-apollo/apollo-tools": "file:../apollo-tools",
     "@oclif/command": "1.5.19",
     "@oclif/config": "1.13.3",
     "@oclif/errors": "1.2.2",
