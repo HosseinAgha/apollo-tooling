@@ -19,11 +19,11 @@ Apollo CLI brings together your GraphQL clients and servers with tools for valid
 
 <!-- usage -->
 ```sh-session
-$ npm install -g apollo
+$ npm install -g @iin-apollo/apollo
 $ apollo COMMAND
 running command...
 $ apollo (-v|--version|version)
-apollo/2.21.3 darwin-x64 node-v12.13.1
+@iin-apollo/apollo/2.22.0 darwin-x64 node-v12.13.0
 $ apollo --help [COMMAND]
 USAGE
   $ apollo COMMAND
@@ -182,10 +182,8 @@ OPTIONS
   --tsFileExtension=tsFileExtension          By default, TypeScript will output "ts" files. Set "tsFileExtension" to
                                              specify a different file extension, for example "d.ts"
 
-  --tsUseOptionalForNullables                This makes nullable fields optional instead of union of field type and null. 
-                                             Makes sending query/mutation results to components with optional props easier. 
-                                             When enabling this You should be aware that `undefined !== null` in JavaScript and apollo-client assigns null to fields with empty value. 
-                                             So a type guard like `type fieldValue !== 'object'` without any further checks, compiles but may result in runtime errors.
+  --tsUseOptionalForNullables                This makes nullable fields optional instead of union of field type and null
+                                             ("field: type | null")
 
   --useFlowExactObjects                      Use Flow exact objects for generated types [flow only]
 
