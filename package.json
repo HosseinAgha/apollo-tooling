@@ -15,6 +15,7 @@
   },
   "scripts": {
     "clean": "git clean -dfqX -- ./node_modules **/{lib,node_modules}/ ./packages/*/tsconfig.tsbuildinfo ./__tmp__*",
+    "prepare": "cd ./package/apollo && npm install",
     "postinstall": "npm run build",
     "build": "tsc --build tsconfig.json",
     "build:clean": "npm run build -- --clean",
